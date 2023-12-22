@@ -1,0 +1,191 @@
+@font-face {
+	font-family: Poppins;
+	src: url(../../fonts/Poppins-Regular.ttf) format(truetype);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	max-width: 1240px;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+/* PRICE TABLE SECTION */
+
+.price {
+	margin: 118px 0 150px 0;
+}
+
+.price-content h2 {
+	color: #22343d;
+	font-family: Poppins;
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+}
+
+.price-content .price-paragpraph {
+	color: #22343d;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 40px; /* 250% */
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.status {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 70px;
+}
+
+.status-card {
+	width: 323.042px;
+	height: 456px;
+	flex-shrink: 0;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 8px;
+	&:hover {
+		background-color: #02897a;
+		transition: 0.3s;
+	}
+	margin-top: 24px;
+}
+
+.status-card h4 {
+	color: #22343d;
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px; /* 166.667% */
+	background-color: transparent;
+}
+
+.status-card p {
+	color: #22343d;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 40px; /* 250% */
+	background-color: transparent;
+}
+
+.number {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	background-color: transparent;
+}
+
+.number h1 {
+	color: #02897a;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 76px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 100px; /* 131.579% */
+	letter-spacing: 0.2px;
+	background-color: transparent;
+}
+
+.number div h6 {
+	color: #02897a;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px; /* 125% */
+	letter-spacing: 0.1px;
+	background-color: transparent;
+}
+
+.number div p {
+	color: var(--second-text, #afafaf);
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px; /* 118.75% */
+	letter-spacing: 0.1px;
+	background-color: transparent;
+}
+
+.number div {
+	background-color: transparent;
+}
+
+.status-card button {
+	color: #fff;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	display: inline-flex;
+	padding: 11px 19px 11px 18px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	background: #02897a;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+.status-card:hover h4 {
+	color: white;
+}
+
+.status-card:hover p, h1, h2, h4, h6, span {
+	color: white;
+}
+
+.status-card:hover .number div h6{
+	color: white;
+}
+
+.status-card:hover .number h1 {
+	color: white;
+}
+
+.status-card:hover button {
+	color: #02897a;
+	background: white;
+	border: #22343d;
+}
+
+.status-card button:hover {
+	color: #22343d;
+	border: 1px solid black;
+	transition: 0.3s;
+}
